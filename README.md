@@ -6,10 +6,16 @@
 2. **Control Inalámbrico Casero (ESP32):** Código fuente y esquemas para crear tu propio mando de juegos inalámbrico desde cero con un microcontrolador ESP32 y la librería `BleGamepad.h`.
 
 * **ESP32 utilizado:** [Ver modelo de ESP32 en AliExpress](https://www.aliexpress.us/item/3256809703899160.html)
-* 
+ 
 📺 **Pasate por mi canal de youtub:**  
 👉 [**Canal de YouTube: @tipitochen**](https://www.youtube.com/@tipitochen)
 
+## 🕹️ Adaptación del Family Game (BlueRetro)
+
+Para lograr que una consola clásica como el **Family Game** (modelos de marcas como Argenvision, CCE, Froggy, etc.) acepte controles inalámbricos modernos de forma nativa, este proyecto utiliza la arquitectura de código abierto **BlueRetro**.
+
+* **¿Qué es BlueRetro?** Es un adaptador Bluetooth multidispositivo para sistemas de videojuegos retro desarrollado por *retro جماعه* / *darthcloud*.
+* **Proyecto oficial y código fuente:**  👉 [Repositorio oficial de BlueRetro en GitHub](https://github.com/darthcloud/BlueRetro)
 ---
 
 ## 📂 Estructura del Repositorio
