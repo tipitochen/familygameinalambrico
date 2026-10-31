@@ -5,6 +5,7 @@
 1. **Family Game Inalámbrico (BlueRetro):** Adaptación para que tu consola retro de 8 bits (marca Argenvision, CCE, Froggy o similares) acepte controles Bluetooth modernos utilizando el proyecto BlueRetro.
 2. **Control Inalámbrico Casero (ESP32):** Código fuente y esquemas para crear tu propio mando de juegos inalámbrico desde cero con un microcontrolador ESP32 y la librería `BleGamepad.h`.
 
+* **ESP32 utilizado:** [Ver modelo de ESP32 en AliExpress](https://www.aliexpress.us/item/3256809703899160.html)
 📺 **Pasate por mi canal de youtub:**  
 👉 [**Canal de YouTube: @tipitochen**](https://www.youtube.com/@tipitochen)
 
