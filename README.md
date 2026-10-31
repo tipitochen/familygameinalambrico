@@ -50,7 +50,7 @@ Todos los botones se conectan entre el pin **GPIO** indicado y **GND (Tierra)**,
 ## 📸 Diagramas e Imágenes de Referencia
 
 ### 1. Tabla gráfica de asignación de pines e imagen del mando
-![Tabla de Conexiones](watermarked_img_3112971603397401734.jpg)
+![Esquema Family Game Argenvision](Family%20Game%20Inalambrico/Argenvision.png)
 
 ### 2. Esquema físico de cableado de pulsadores al ESP32
 ![Esquema de Pines ESP32](watermarked_img_6155634074326934617.jpg)
