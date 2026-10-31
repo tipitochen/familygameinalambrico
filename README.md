@@ -66,12 +66,19 @@ Todos los botones se conectan entre el pin **GPIO** indicado y **GND (Tierra)**,
 ### 2. Esquema físico de cableado de pulsadores  para crear tu propio control bluetooh con un esp32. 
 ![Esquema ESP32 Control](Family%20Game%20Inalambrico/Esquemas%20esp32-%20control.png)
 
-## 💻 Compilación en Arduino IDE
+## 💻 Compilación en Arduino IDE (Control Inalámbrico)
 
-1. Asegúrate de tener instalado el core de **ESP32** en Arduino IDE.
-2. Instala la librería **`ESP32-BLE-Gamepad`** (por *lemmingDev*) desde el gestor de librerías.
-3. Abre el archivo `Control_inalambrico.ino`. Si no vas a usar la pantalla con el escudo nacional, puedes borrar el archivo `EscudoNacional.h` y quitar la línea `#include "EscudoNacional.h"`.
-4. Selecciona tu placa ESP32 y sube el programa.
+Para el firmware del **Control Inalámbrico Casero**, se utilizó el entorno de desarrollo **Arduino IDE** junto con la librería open-source para emular el gamepad Bluetooth.
+
+### Pasos para compilar y cargar:
+
+1. **Soporte para ESP32:** Asegúrate de tener instalado el core oficial de **ESP32** en tu Arduino IDE (Gestor de Tarjetas).
+2. **Librería Bluetooth Gamepad:** Instala la librería **ESP32-BLE-Gamepad** creada por **lemmingDev**.
+   * Puedes instalarla directamente desde el Gestor de Librerías de Arduino IDE o consultar su repositorio oficial en GitHub:  
+     👉 [Repositorio oficial de ESP32-BLE-Gamepad en GitHub (lemmingDev)](https://github.com/lemmingDev/ESP32-BLE-Gamepad)
+3. **Proyecto y Archivo Opcional:** Abre la carpeta del proyecto y selecciona el archivo `Control_inalambrico.ino`.
+   * *Nota sobre el gráfico:* El proyecto incluye por defecto `EscudoNacional.h` para mostrar el escudo nacional en pantallas TFT/OLED integradas. Si no vas a usar pantalla o prefieres prescindir de este gráfico, puedes borrar dicho archivo de la carpeta y eliminar la línea `#include "EscudoNacional.h"` en el código principal.
+4. **Carga del firmware:** Selecciona tu placa (ej. *ESP32 Dev Module*), conecta tu microcontrolador mediante USB y sube el programa.
 
 ---
 
