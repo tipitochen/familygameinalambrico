@@ -49,13 +49,11 @@ Todos los botones se conectan entre el pin **GPIO** indicado y **GND (Tierra)**,
 
 ## 📸 Diagramas e Imágenes de Referencia
 
-### 1. Tabla gráfica de asignación de pines e imagen del mando
+### 1. Tabla gráfica de asignación de pines para conectar un esp32 a un family game Argenvision
 ![Esquema Family Game Argenvision](Family%20Game%20Inalambrico/Argenvision.png)
 
-### 2. Esquema físico de cableado de pulsadores al ESP32
-![Esquema de Pines ESP32](watermarked_img_6155634074326934617.jpg)
-
----
+### 2. Esquema físico de cableado de pulsadores  para crear tu propio control bluetooh con un esp32. 
+![Esquema ESP32 Control](Inalambrico/Esquemas%20esp32-%20control.png)
 
 ## 💻 Compilación en Arduino IDE
 
