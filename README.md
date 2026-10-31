@@ -39,24 +39,6 @@ Family Game Inalambrico/
 
 ---
 
-## 🕹️ Tabla de Conexiones de Pines (Control Casero)
-
-Todos los botones se conectan entre el pin **GPIO** indicado y **GND (Tierra)**, aprovechando las resistencias *pull-up* internas del ESP32 (`INPUT_PULLUP`).
-
-| Función del Botón | Pin GPIO (ESP32) | Etiqueta en el Código (`.ino`) | Ubicación / Descripción |
-| :--- | :---: | :---: | :--- |
-| **ARRIBA** | `21` | `PIN_UP` | D-Pad Dirección Arriba |
-| **ABAJO** | `12` | `PIN_DOWN` | D-Pad Dirección Abajo |
-| **IZQUIERDA** | `25` | `PIN_LEFT` | D-Pad Dirección Izquierda |
-| **DERECHA** | `26` | `PIN_RIGHT` | D-Pad Dirección Derecha |
-| **BOTÓN A** | `27` | `PIN_A` | Botón Principal A |
-| **BOTÓN B** | `33` | `PIN_B` | Botón Principal B |
-| **START** | `32` | `PIN_START` | Botón Start |
-| **SELECT** | `2` | `PIN_SELECT` | Botón Select |
-| **TURBO A** | `17` | `PIN_TURBO_A` | Botón físico para ráfaga/turbo de A |
-| **TURBO B** | `15` | `PIN_TURBO_B` | Botón físico para ráfaga/turbo de B |
-
----
 
 ## 📸 Diagramas e Imágenes de Referencia
 
