@@ -53,7 +53,7 @@ Todos los botones se conectan entre el pin **GPIO** indicado y **GND (Tierra)**,
 ![Esquema Family Game Argenvision](Family%20Game%20Inalambrico/Argenvision.png)
 
 ### 2. Esquema físico de cableado de pulsadores  para crear tu propio control bluetooh con un esp32. 
-![Esquema ESP32 Control](Inalambrico/Esquemas%20esp32-%20control.png)
+![Esquema ESP32 Control](Family%20Game%20Inalambrico/Esquemas%20esp32-%20control.png)
 
 ## 💻 Compilación en Arduino IDE
 
